@@ -1,0 +1,32 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Arduino / ESP32 build files
+/firmware/esp32_aquasense/build/
+/firmware/esp32_aquasense/libraries/
+*.local.txt
+*.elf
+*.bin
+*.hex
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Data logs (exclude user logs but keep sample logs if required)
+data/*.csv
+!data/sample_irrigation_log.csv
+
+# OS files
+.DS_Store
+Thumbs.db
